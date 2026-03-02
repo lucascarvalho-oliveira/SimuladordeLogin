@@ -4,6 +4,7 @@ import java.util.Scanner;
 import model.Pessoa;
 import service.CPF;
 import service.Senha;
+import service.Email;
 
 public class Main {
     public static void main(String[] args){
@@ -16,12 +17,16 @@ public class Main {
         int idade = sc.nextInt();
 
         sc.nextLine();
+        System.out.println("Informe o seu email");
+        String email = sc.nextLine();
+
         System.out.println("Qual o seu CPF:");
         String cpf = sc.nextLine();
 
+        Email meuEmail = new Email(email);
         CPF meuCpf = new CPF(cpf);
 
-        Pessoa pessoa = new Pessoa(nome, idade, meuCpf);
+        Pessoa pessoa = new Pessoa(nome, idade, meuCpf, meuEmail);
 
         System.out.println("Crie uma senha:");
         String senha = sc.nextLine();
