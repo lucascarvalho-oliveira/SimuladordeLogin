@@ -24,9 +24,10 @@ Projeto desenvolvido em Java com o objetivo de simular o processo de criação d
 
 ## Como Executar
 1. Clone o repositório:
-'git clone https://github.com/lucascarvalho-oliveira/SimuladordeCriarLogin.git'
-2. Abra o projeto em sua IDE (IntelliJ, Eclipse ou VS Code com extensão Java).
-3. Execute a classe Main.
+'git clone'
+https://github.com/lucascarvalho-oliveira/SimuladordeCriarLogin.git
+3. Abra o projeto em sua IDE (IntelliJ, Eclipse ou VS Code com extensão Java).
+4. Execute a classe Main.
 
 ## Finalidade
 Este projeto faz parte do meu processo de aprendizado em Análise e Desenvolvimento de Sistemas (ADS), com foco na construção de uma base sólida em Java e Engenharia de Software.
